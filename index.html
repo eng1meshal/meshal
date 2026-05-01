@@ -1,28 +1,219 @@
 <!DOCTYPE html>
-<html lang = "en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meshal Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <div class="main">
-    <div class="Meshal">
-<img src="meshal.png.png" class="logo" alt="logo">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">My Project</a></li>
-            <li><a href="#">Contant</a></li>
-        </ul>
-    </div>
-    <div class="info">
-        <h2>MESHAL ALTAMIMI </h2>
-        <h1>SOFTWARE ENGINEERING</h1>
-        <h3>a Software Engineering student interested in web development, cybersecurity, and drone technologies.</h3>
-        <a href="#">Hire Me</a>
-    </div>
-  </div>
+
+<div class="main" id="home">
+
+<nav class="navbar">
+<img src="meshal.png.png" class="logo" alt="Logo">
+
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="menu-icon">☰</label>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">My Project</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#tools">Tools</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+
+<div class="info">
+<p class="welcome">Welcome to my Website</p>
+
+<h1>MESHAL ALTAMIMI</h1>
+
+<h2>SOFTWARE ENGINEERING</h2>
+
+<h3>
+A Software Engineering student interested in web development,
+cybersecurity, UI/UX design, and drone technologies.
+</h3>
+
+<div class="hero-buttons">
+<a href="#contact">Hire Me</a>
+<a href="cv.pdf" download class="cv-btn">Download CV</a>
+</div>
+</div>
+
+<div class="profile-img">
+<img src="meshal-photo.png" alt="Meshal Photo">
+</div>
+
+</div>
+</div>
+
+<section class="about reveal" id="about">
+<h2>About Me</h2>
+
+<div class="about-box">
+<p>
+I am a Software Engineering student passionate about building modern digital solutions.
+I enjoy designing websites, creating user-friendly interfaces, and improving my skills
+in cybersecurity and software development. I also have personal experience in building,
+programming, and assembling drones, with strong knowledge and passion in the FPV drone field.
+</p>
+</div>
+</section>
+
+<section class="skills reveal" id="skills">
+<h2>My Skills</h2>
+
+<div class="skills-container">
+<div class="skill-box">HTML</div>
+<div class="skill-box">CSS</div>
+<div class="skill-box">JavaScript</div>
+<div class="skill-box">PHP</div>
+<div class="skill-box">Java</div>
+<div class="skill-box">UI/UX</div>
+</div>
+</section>
+
+<section class="projects reveal" id="projects">
+<h2>My Projects</h2>
+
+<div class="projects-container">
+
+<div class="project-box">
+<h3>MyLens Platform</h3>
+<p>
+A platform that connects photographers with clients, allowing users to view portfolios,
+book sessions, and communicate easily.
+</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project-box">
+<h3>Explore Hail</h3>
+<p>
+A smart tourism website that helps visitors explore Hail city, discover tourist places,
+and learn about heritage locations.
+</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project-box">
+<h3>Exam Scheduling System</h3>
+<p>
+A user interface prototype for managing exam schedules, supervisors, reports,
+and exam monitoring in an organized way.
+</p>
+<a href="#">View Project</a>
+</div>
+
+</div>
+</section>
+
+<section class="services reveal" id="services">
+<h2>Services</h2>
+
+<div class="services-container">
+
+<div class="service-box">
+<h3>Professional Web Design</h3>
+<p>
+I create elegant, modern, and professional websites with clean layouts,
+strong visual identity, and smooth user experience.
+</p>
+</div>
+
+<div class="service-box">
+<h3>Frontend Development</h3>
+<p>
+I build responsive and attractive web pages using HTML, CSS, and JavaScript,
+with attention to details, performance, and modern design style.
+</p>
+</div>
+
+<div class="service-box">
+<h3>Creative UI/UX Design</h3>
+<p>
+I design user-friendly interfaces that are simple, beautiful, and focused
+on giving users a clear and enjoyable digital experience.
+</p>
+</div>
+
+<div class="service-box">
+<h3>Drone & FPV Experience</h3>
+<p>
+I have hands-on experience in assembling, programming, and operating drones,
+especially in the FPV field, combining technology with creativity.
+</p>
+</div>
+
+</div>
+</section>
+
+<section class="tools reveal" id="tools">
+<h2>Tools I Use</h2>
+
+<div class="tools-container">
+<div class="tool-box">VS Code</div>
+<div class="tool-box">Figma</div>
+<div class="tool-box">GitHub</div>
+<div class="tool-box">Canva</div>
+<div class="tool-box">Trello</div>
+<div class="tool-box">Draw.io</div>
+</div>
+</section>
+
+<section class="contact reveal" id="contact">
+<h2>Contact Me</h2>
+
+<div class="contact-box">
+
+<form class="contact-form">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea rows="5" placeholder="Your Message" required></textarea>
+<button type="submit">Send Message</button>
+</form>
+
+<div class="social-links">
+<a href="https://www.instagram.com/mm_alaqeel/" target="_blank" class="social">Instagram</a>
+<a href="https://x.com/mmalaqeel1" target="_blank" class="social">X</a>
+<a href="https://www.linkedin.com/in/meshal-m-altamimi-1a0068307" target="_blank" class="social">LinkedIn</a>
+<a href="mailto:mmalaqeel72@gmail.com" class="social">Email</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Meshal Altamimi | Website </p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+
+window.addEventListener('scroll', showSections);
+
+function showSections(){
+    const trigger = window.innerHeight * 0.85;
+
+    reveals.forEach((box)=>{
+        const top = box.getBoundingClientRect().top;
+
+        if(top < trigger){
+            box.classList.add('active');
+        }
+    });
+}
+
+showSections();
+</script>
+
 </body>
 </html>
